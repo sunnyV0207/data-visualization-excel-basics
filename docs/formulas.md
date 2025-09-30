@@ -8,8 +8,8 @@ Practice: 1) Create Scholarship column for students who scored >=80  marks in ex
 [Open IF_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
 > After opening, go to the sheet named `IF_examples` to see the formulas.
 
-![IF_examples Pass/Fail Sheet Screenshot](../images/IF_examples/pass_fail_example.png)
-![IF_examples Scholarship Sheet Screenshot](../images/IF_examples/scholarship_example.png)
+![IF_examples Practice 1 Screenshot](../images/IF_examples/practice1_example.png)
+![IF_examples Practice 2 Screenshot](../images/IF_examples/practice2_example.png)
 
 
 ## IFS
@@ -37,5 +37,26 @@ Practice: 2) Create a Performance column for students:
 [Open IFS_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
 > After opening, go to the sheet named `IFS_examples` to see the formulas.
 
-![IFS_examples Grade Sheet Screenshot](../images/IFS_examples/grade_example.png)
-![IFS_examples Performance Sheet Screenshot](../images/IFS_examples/performance_example.png)
+![IFS_examples Practice 1 Screenshot](../images/IFS_examples/practice1.png)
+![IFS_examples Practice 2 Screenshot](../images/IFS_examples/practice2_example.png)
+
+## AND
+
+Definition: The AND function in Excel is a logical function that checks whether all conditions are TRUE. It returns TRUE if all conditions are met, and FALSE if any condition is not met.
+
+Syntax: =AND(logical1, logical2, …)
+
+Example: =AND(C2>=50, D2="Yes")
+
+Practice: 1) Create a column that shows Eligible only if a student scored at least 50 marks and has submitted the assignment.
+
+Practice: 2) A school wants to check if students are eligible for a certificate.
+- Student must score at least 60 marks.
+- Student must have attendance ≥ 75%.
+If both conditions are met, display "Certificate Awarded", otherwise display "Not Awarded".
+
+[Open AND_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `AND_examples` to see the formulas.
+
+![AND_examples Practice 1 Screenshot](../images/AND_examples/practice1.png)
+![AND_examples Practice 2 Screenshot](../images/AND_examples/practice2_example.png)

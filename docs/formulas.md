@@ -103,3 +103,26 @@ Practice: 2) Create a cell that calculates the Class Total Marks (sum of all stu
 ![SUM_examples Practice 1 Screenshot](../images/SUM_examples/practice1_example.png)
 ![SUM_examples Practice 2 Screenshot](../images/SUM_examples/practice2_example.png)
 
+## SUMIF
+
+Definition: The SUMIF function in Excel adds all numbers in a range that meet a specified condition. It is useful for summing only the values that satisfy certain criteria.
+
+Syntax:
+=SUMIF(range, criteria, [sum_range])
+
+- range – The cells you want to evaluate the condition on.
+- criteria – The condition that determines which cells to sum.
+- sum_range – The cells to actually sum (optional; if omitted, range is summed).
+
+Example:
+=SUMIF(B2:B11, ">=80", B2:B11)
+
+Practice: 1) Sum the marks of students who scored at least 50 in Maths. 
+
+Practice: 2) Sum the Science marks of students whose attendance is ≥ 75%.
+
+[Open SUMIF_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `SUMIF_examples` to see the formulas.
+
+![SUMIF_examples Practice 1 Screenshot](../images/SUMIF_examples/practice1_example.png)
+![SUMIF_examples Practice 2 Screenshot](../images/SUMIF_examples/practice2_example.png)

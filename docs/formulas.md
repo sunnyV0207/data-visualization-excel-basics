@@ -60,3 +60,46 @@ If both conditions are met, display "Certificate Awarded", otherwise display "No
 
 ![AND_examples Practice 1 Screenshot](../images/AND_examples/practice1_example.png)
 ![AND_examples Practice 2 Screenshot](../images/AND_examples/practice2_example.png)
+
+## OR
+
+Definition: The OR function in Excel is a logical function that checks whether at least one condition is TRUE. It returns TRUE if any condition is met, and FALSE only if all conditions are FALSE.
+
+Syntax: =OR(logical1, logical2, …)
+
+Example: =OR(C2>=80, D2="Yes")
+
+Practice: 1) Create a column that shows Extra Credit if a student scored at least 80 marks or has submitted assignment.
+
+Practice: 2) A school wants to give a Warning to students if either condition is TRUE:
+Student scored less than 40 marks.
+Student has attendance below 60%.
+If any condition is met, display "Warning", otherwise display "OK".
+
+[Open OR_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `OR_examples` to see the formulas.
+
+![OR_examples Practice 1 Screenshot](../images/OR_examples/practice1_example.png)
+![OR_examples Practice 2 Screenshot](../images/OR_examples/practice2_example.png)
+
+
+## SUM
+
+Definition: The SUM function in Excel is used to add numbers together. It can add individual numbers, cell references, ranges, or a mix of all three.
+
+Syntax:
+=SUM(number1, [number2], …)
+
+Example:
+=SUM(B2:B6)
+
+Practice: 1) Create a column that calculates the Total Marks obtained by each student across 3 subjects.
+
+Practice: 2) Create a cell that calculates the Class Total Marks (sum of all students’ total marks).
+
+[Open SUM_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `SUM_examples` to see the formulas.
+
+![SUM_examples Practice 1 Screenshot](../images/SUM_examples/practice1_example.png)
+![SUM_examples Practice 2 Screenshot](../images/SUM_examples/practice2_example.png)
+

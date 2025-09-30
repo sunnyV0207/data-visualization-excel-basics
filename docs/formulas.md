@@ -58,5 +58,5 @@ If both conditions are met, display "Certificate Awarded", otherwise display "No
 [Open AND_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
 > After opening, go to the sheet named `AND_examples` to see the formulas.
 
-![AND_examples Practice 1 Screenshot](../images/AND_examples/practice1.png)
+![AND_examples Practice 1 Screenshot](../images/AND_examples/practice1_example.png)
 ![AND_examples Practice 2 Screenshot](../images/AND_examples/practice2_example.png)

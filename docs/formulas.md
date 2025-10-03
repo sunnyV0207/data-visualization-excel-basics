@@ -126,3 +126,131 @@ Practice: 2) Sum the Science marks of students whose attendance is ≥ 75%.
 
 ![SUMIF_examples Practice 1 Screenshot](../images/SUMIF_examples/practice1_example.png)
 ![SUMIF_examples Practice 2 Screenshot](../images/SUMIF_examples/practice2_example.png)
+
+## SUMIFS
+
+Definition: The SUMIFS function in Excel adds all numbers in a range that meet multiple specified conditions. It is useful when you want to sum values based on more than one criterion.
+
+Syntax:
+=SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], …)
+
+
+- sum_range – The cells to sum.
+- criteria_range1 – The first range to evaluate the condition on.
+- criteria1 – The condition that determines which cells in criteria_range1 to sum.
+- criteria_range2, criteria2, … – Additional ranges and conditions (optional).
+
+Example:
+=SUMIFS(C2:C11, B2:B11, ">=80", D2:D11, "Pass")
+
+
+Practice: 1) Sum the Maths marks of students who scored at least 50 and have attendance ≥ 75%. 
+
+Practice: 2) Sum the Science marks of students who scored ≥ 60 and belong to class "10A".
+
+[Open SUMIFS_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `SUMIFS_examples` to see the formulas.
+
+![SUMIFS_examples Practice 1 Screenshot](../images/SUMIFS_examples/practice1_example.png)
+![SUMIFS_examples Practice 2 Screenshot](../images/SUMIFS_examples/practice2_example.png)
+
+## COUNT
+
+Definition: The COUNT function in Excel counts the number of numeric values (numbers, dates, times) in a range. It ignores blank cells and text.
+
+Syntax:
+=COUNT(value1, [value2], …)
+
+
+- value1 – The first cell, range, or value to count.
+- value2, … – Additional cells, ranges, or values (optional).
+
+Example:
+=COUNT(A2:A11)
+
+
+Practice: 1) Count how many students have marks entered in the Maths column. 
+
+Practice: 2) Count how many students have marks entered in the Science column.
+
+[Open COUNT_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `COUNT_examples` to see the formulas.
+
+![COUNT_examples Practice 1 Screenshot](../images/COUNT_examples/practice1_example.png)
+![COUNT_examples Practice 2 Screenshot](../images/COUNT_examples/practice2_example.png)
+
+## COUNTA
+
+Definition: The COUNTA function in Excel counts the number of non-empty cells in a range. It includes numbers, text, logical values, errors, and formulas that return a value, but ignores blank cells.
+
+Syntax:
+=COUNTA(value1, [value2], …)
+
+
+- value1 – The first cell, range, or value to check.
+- value2, … – Additional cells, ranges, or values (optional).
+
+Example:
+=COUNTA(A2:A11)
+
+
+Practice: 1) Count how many students have their names entered in the list.
+
+Practice: 2) Count how many subjects have marks recorded (Maths, Science, English, etc.).
+
+[Open COUNTA_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `COUNTA_examples` to see the formulas.
+
+![COUNTA_examples Practice 1 Screenshot](../images/COUNTA_examples/practice1_example.png)
+![COUNTA_examples Practice 2 Screenshot](../images/COUNTA_examples/practice2_example.png)
+
+## COUNTIF
+
+Definition: The COUNTIF function in Excel counts the number of cells in a range that meet a single specified condition. It is useful when you want to count entries based on one criterion.
+
+Syntax:
+=COUNTIF(range, criteria)
+
+
+- range – The range of cells you want to evaluate.
+- criteria – The condition that determines which cells to count (number, expression, or text).
+
+Example:
+=COUNTIF(B2:B11, ">=80")
+
+
+Practice: 1) Count the number of students who scored at least 50 in Maths.
+
+Practice: 2) Count the number of students who belong to class "10A".
+
+[Open COUNTIF_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `COUNTIF_examples` to see the formulas.
+
+![COUNTIF_examples Practice 1 Screenshot](../images/COUNTIF_examples/practice1_example.png)
+![COUNTIF_examples Practice 2 Screenshot](../images/COUNTIF_examples/practice2_example.png)
+
+## COUNTIFS
+
+Definition: The COUNTIFS function in Excel counts the number of cells that meet multiple specified conditions. It is useful when you want to count entries based on more than one criterion.
+
+Syntax:
+=COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], …)
+
+
+- criteria_range1 – The first range to evaluate the condition on.
+- criteria1 – The condition that determines which cells in criteria_range1 to count.
+- criteria_range2, criteria2, … – Additional ranges and conditions (optional).
+
+Example:
+=COUNTIFS(B2:B11, ">=80", D2:D11, "Pass")
+
+
+Practice: 1) Count the number of students who scored at least 50 in Maths and have attendance ≥ 75%.
+
+Practice: 2) Count the number of students who scored ≥ 60 in Science and belong to class "10A".
+
+[Open COUNTIFS_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
+> After opening, go to the sheet named `COUNTIFS_examples` to see the formulas.
+
+![COUNTIFS_examples Practice 1 Screenshot](../images/COUNTIFS_examples/practice1_example.png)
+![COUNTIFS_examples Practice 2 Screenshot](../images/COUNTIFS_examples/practice2_example.png)

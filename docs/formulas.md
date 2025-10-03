@@ -37,7 +37,7 @@ Practice: 2) Create a Performance column for students:
 [Open IFS_examples Sheet in Excel](../excel_files/formula_examples.xlsx)
 > After opening, go to the sheet named `IFS_examples` to see the formulas.
 
-![IFS_examples Practice 1 Screenshot](../images/IFS_examples/practice1.png)
+![IFS_examples Practice 1 Screenshot](../images/IFS_examples/practice1_example.png)
 ![IFS_examples Practice 2 Screenshot](../images/IFS_examples/practice2_example.png)
 
 ## AND
